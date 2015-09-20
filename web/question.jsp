@@ -5,7 +5,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Home Page</title>
+        <title>Question Page</title>
         <link rel="stylesheet" type="text/css" href="CSS/style.css" />
     </head>
     <body>
