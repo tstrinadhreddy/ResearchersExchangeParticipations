@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 17, 2015, 8:01:15 PM
+    Author     : Trinadh
+*/
+body{
+    width:1080px;
+    height: 480px;
+    margin: 0px auto;
+}
+header{
+    width:  100%;
+    height: 15%;
+}
+header #header{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: lightseagreen;
+}
+header #header #left_icon_description{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+header #header #right_menu_div{
+    float: left;
+    width : 40%;
+    height: 100%;
+    padding-left:10%;
+}
+header #header #left_icon_description .left_icon_label{
+    width:100%;
+    float: left;
+    margin-top: 6%;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Georgia, serif;
+    font-size: larger;
+    color:white;
+}
+header #header #right_menu_div .right_nav_item{
+    width: 20%;
+    float:left;
+    margin-top: 8%;
+    text-align: center;
+    font-family: serif;
+}
+header #header #right_menu_div .right_nav_item a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
+header #header #right_menu_div .right_nav_item a:hover{
+    color:black;
+    cursor: auto;
+}
+header #header #right_menu_div .right_nav_item a:active,a:after{
+    font-style: italic;
+    color:black;
+}
+footer{
+        width:1080px;
+	height:5%;
+	position:absolute;
+	bottom:0;
+        background-color: lightseagreen;
+        color: white;
+        text-align: center;
+        padding-top:15px;
+}
